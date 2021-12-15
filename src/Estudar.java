@@ -1,4 +1,13 @@
+/**
+ *
+ */
 public class Estudar {
+    //o programa sempre inicia no main
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("Ola Mundo!!");
         //bytecode eh o executavel do java o .class e quem vai entender ele eh a virtual machine

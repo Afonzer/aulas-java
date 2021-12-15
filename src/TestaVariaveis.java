@@ -22,12 +22,12 @@ public class TestaVariaveis {
         System.out.println("Double");
 
         //double eh o numero flutuante, numero com virgula
-        double salario;
+        final double salario; //o final determina q esta variavel eh unica e nn pode ser alterada
         salario = 1235.02;
         System.out.println("Salario: "+ salario);
 
-        double resultado; //se a variavel q resulta na soma de ambos int e double for int ele nn aceita, o int ele busca colcoar um numero inteiro
-        resultado = v1 + salario;
+        double resultado = v1 + salario; //se a variavel q resulta na soma de ambos int e double for int ele nn aceita, o int ele busca colcoar um numero inteiro
+
         System.out.println("resultado: " + resultado ); //mesmo sendo uma variavel diferente, o double pode somar com um int
 
         System.out.println("Casting");

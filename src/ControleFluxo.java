@@ -4,7 +4,7 @@ public class ControleFluxo {
         System.out.println("if e else");
 //if/else/else if sao literalmente caso/senao aonde podemos colocar condicoes para rodar no programa
 
-        @Override
+
         int idade = 13;
         boolean adulto = idade >= 18; //neste caso eh false
 
