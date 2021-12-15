@@ -1,3 +1,5 @@
+package Alura;
+
 public class TestaVariaveis {
     public static void main(String[] args) {
         //variaveis sao os metodos, as informacoes q ficam guardadas junto a palavras chaves no sistema demarcadas por int/string/etc
