@@ -8,7 +8,7 @@ public class PrimeiroProjeto {
 
         final double fToC = 5.0 / 9.0;
         final double cToF = 9.0 / 5.0;
-
+        
         int diferenca = 32;
 
         double F = 77;

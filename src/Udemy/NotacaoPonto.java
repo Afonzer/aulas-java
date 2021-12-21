@@ -10,7 +10,7 @@ public class NotacaoPonto {
         //notacao ponto tem varias formas de correcao/alteracao da variavel
         string = string.toUpperCase();
         string = string.concat("!!!");
-
+        System.out.println("\n \n");
         System.out.println(string.charAt(2));
         System.out.println(string.startsWith("B"));
         System.out.println(string.length());
@@ -30,5 +30,9 @@ public class NotacaoPonto {
 
         System.out.printf("Nome: %s %s", nome, sobrenome); //uma forma de utilizar o print eh o printf
         //coloque %s em o numero de variaveis q vc vai adiconar e coloque elas com , e tudo sera encaixado no print
+        //tendo tambem como parametro para substituicao o %s para string e %d para int
+
+
+        //tudo em java eh obejto q pode ser usado a conotacao ponto, mas os q nn daoa pra usar temos q usar o Wrappers
     }
 }
