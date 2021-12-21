@@ -10,9 +10,13 @@ public class Import {
         Date data = new Date();
 
         Scanner scanner = new Scanner(System.in);
+        String v1 = JOptionPane.showInputDialog("Digite o primeiro numero!");
 
         System.out.println(data);
 
+
+
+        scanner.close();
         //JButton botao = new JButton();
 
     }

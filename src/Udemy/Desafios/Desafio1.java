@@ -1,4 +1,4 @@
-package Udemy;
+package Udemy.Desafios;
 
 public class Desafio1 {
     public static void main(String[] args) {

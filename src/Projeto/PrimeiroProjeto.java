@@ -1,10 +1,14 @@
 package Projeto;
+
+import java.util.Scanner;
+
 //aqui vamos testar tudo aprendido
 public class PrimeiroProjeto {
     public static void main(String[] args) {
         //converter celcius para fahrenheit e vice versa com uma variavel boolean
         //(F - 32) x 5/9 = C  fahrenheint para celcius
         //(°C × 9/5) + 32 = F  celcius para fahrenheint
+        Scanner leitura = new Scanner(System.in);
 
         final double fToC = 5.0 / 9.0;
         final double cToF = 9.0 / 5.0;
